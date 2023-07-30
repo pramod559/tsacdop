@@ -12,6 +12,9 @@ import 'package:tsacdop/widgets/custom_widget.dart';
 
 class MenuBar extends StatefulWidget {
   final EpisodeBrief? episodeItem;
+
+
+  
   final String? heroTag;
   final bool? hide;
   MenuBar({this.episodeItem, this.heroTag, this.hide, Key? key})
@@ -21,6 +24,9 @@ class MenuBar extends StatefulWidget {
 }
 
 class MenuBarState extends State<MenuBar> {
+
+
+
   @override
   Widget build(BuildContext context) {
     final audio = Provider.of<AudioPlayerNotifier>(context, listen: false);

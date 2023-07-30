@@ -18,6 +18,10 @@ class MyRectangularTrackShape extends RectangularSliderTrackShape {
 
 class MyRoundSliderThumpShape extends SliderComponentShape {
   const MyRoundSliderThumpShape({
+
+
+
+    
     this.enabledThumbRadius = 10.0,
     this.disabledThumbRadius,
     this.thumbCenterColor,
